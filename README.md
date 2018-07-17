@@ -11,6 +11,7 @@ Primary data sources:
     * Demographic: median age, percentage white (again to be converted to Z-scores), percentage with education of high school graduate or higher
     * For the census data, most if not all of these regressors are related, therefore there is a high degree of collinearity. E.g., the poverty rate and the percent unemployed are clearly closely related, although they don't measure exactly the same thing.
   * Other sources:
+    * Urban vs suburban vs rural counties; obtained from census maps/relational table, located [here](https://www.census.gov/geo/maps-data/data/ua_rel_download.html)
     * Opioid prescribing rate map for 2016, located [here](https://www.cdc.gov/drugoverdose/maps/rxcounty2016.html); again from the CDC. Could also include the [map for 2015](https://www.cdc.gov/drugoverdose/maps/rxcounty2015.html) to see if that is more strongly predictive.
     * Number of methadone clinics per county: [directory](http://www.opiateaddictionresource.com/treatment/methadone_clinic_directory)
     * Either presence or absence of PDMP, or age of PDMP. Info located here: [State Profiles with links for each state](http://www.pdmpassist.org/content/state-profiles)
