@@ -1,0 +1,1080 @@
+Round number: 35                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.389
+Model:                            OLS   Adj. R-squared:                  0.374
+Method:                 Least Squares   F-statistic:                     25.58
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           6.07e-62
+Time:                        08:24:15   Log-Likelihood:                -367.56
+No. Observations:                 700   AIC:                             771.1
+Df Residuals:                     682   BIC:                             853.0
+Df Model:                          17                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4789      0.045     77.596      0.000       3.391       3.567
+median_age                               0.1485      0.020      7.544      0.000       0.110       0.187
+percent_white                            0.0807      0.022      3.652      0.000       0.037       0.124
+percent_poverty                          0.1161      0.025      4.699      0.000       0.068       0.165
+opioid_rx_rate_2014                      0.1460      0.025      5.752      0.000       0.096       0.196
+median_age^2                            -0.0292      0.009     -3.425      0.001      -0.046      -0.012
+median_age hs_percent                   -0.0697      0.017     -4.015      0.000      -0.104      -0.036
+percent_white opioid_rx_rate_2014        0.0457      0.016      2.910      0.004       0.015       0.077
+hs_percent percent_poverty               0.0500      0.017      2.990      0.003       0.017       0.083
+median_hh_income percent_poverty        -0.0763      0.024     -3.164      0.002      -0.124      -0.029
+median_hh_income opioid_rx_rate_2014     0.1046      0.023      4.540      0.000       0.059       0.150
+Division_East_North_Central             -0.2237      0.057     -3.891      0.000      -0.337      -0.111
+Division_East_South_Central             -0.3944      0.075     -5.282      0.000      -0.541      -0.248
+Division_Mountain                       -0.2946      0.077     -3.818      0.000      -0.446      -0.143
+Division_Pacific                        -0.4202      0.072     -5.819      0.000      -0.562      -0.278
+Division_South_Atlantic                 -0.2531      0.056     -4.503      0.000      -0.364      -0.143
+Division_West_North_Central             -0.4614      0.083     -5.561      0.000      -0.624      -0.298
+Division_West_South_Central             -0.5586      0.070     -7.933      0.000      -0.697      -0.420
+==============================================================================
+Omnibus:                        2.299   Durbin-Watson:                   2.068
+Prob(Omnibus):                  0.317   Jarque-Bera (JB):                2.377
+Skew:                           0.128   Prob(JB):                        0.305
+Kurtosis:                       2.873   Cond. No.                         23.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 36                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.379
+Model:                            OLS   Adj. R-squared:                  0.364
+Method:                 Least Squares   F-statistic:                     26.04
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           3.20e-60
+Time:                        08:24:16   Log-Likelihood:                -373.53
+No. Observations:                 700   AIC:                             781.1
+Df Residuals:                     683   BIC:                             858.4
+Df Model:                          16                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4666      0.045     76.968      0.000       3.378       3.555
+median_age                               0.1325      0.019      6.876      0.000       0.095       0.170
+percent_white                            0.0779      0.022      3.500      0.000       0.034       0.122
+percent_poverty                          0.1107      0.025      4.453      0.000       0.062       0.159
+opioid_rx_rate_2014                      0.1584      0.025      6.255      0.000       0.109       0.208
+median_age hs_percent                   -0.0740      0.017     -4.236      0.000      -0.108      -0.040
+percent_white opioid_rx_rate_2014        0.0455      0.016      2.871      0.004       0.014       0.077
+hs_percent percent_poverty               0.0521      0.017      3.094      0.002       0.019       0.085
+median_hh_income percent_poverty        -0.0843      0.024     -3.484      0.001      -0.132      -0.037
+median_hh_income opioid_rx_rate_2014     0.1072      0.023      4.619      0.000       0.062       0.153
+Division_East_North_Central             -0.2290      0.058     -3.953      0.000      -0.343      -0.115
+Division_East_South_Central             -0.4095      0.075     -5.451      0.000      -0.557      -0.262
+Division_Mountain                       -0.3424      0.076     -4.478      0.000      -0.493      -0.192
+Division_Pacific                        -0.4413      0.073     -6.085      0.000      -0.584      -0.299
+Division_South_Atlantic                 -0.2847      0.056     -5.094      0.000      -0.394      -0.175
+Division_West_North_Central             -0.4925      0.083     -5.925      0.000      -0.656      -0.329
+Division_West_South_Central             -0.5854      0.071     -8.301      0.000      -0.724      -0.447
+==============================================================================
+Omnibus:                        2.078   Durbin-Watson:                   2.065
+Prob(Omnibus):                  0.354   Jarque-Bera (JB):                2.151
+Skew:                           0.126   Prob(JB):                        0.341
+Kurtosis:                       2.900   Cond. No.                         21.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 37                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.371
+Model:                            OLS   Adj. R-squared:                  0.358
+Method:                 Least Squares   F-statistic:                     26.94
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           3.16e-59
+Time:                        08:24:16   Log-Likelihood:                -377.72
+No. Observations:                 700   AIC:                             787.4
+Df Residuals:                     684   BIC:                             860.3
+Df Model:                          15                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4621      0.045     76.511      0.000       3.373       3.551
+median_age                               0.1328      0.019      6.853      0.000       0.095       0.171
+percent_white                            0.0675      0.022      3.059      0.002       0.024       0.111
+percent_poverty                          0.1146      0.025      4.595      0.000       0.066       0.164
+opioid_rx_rate_2014                      0.1537      0.025      6.049      0.000       0.104       0.204
+median_age hs_percent                   -0.0734      0.018     -4.183      0.000      -0.108      -0.039
+hs_percent percent_poverty               0.0481      0.017      2.850      0.005       0.015       0.081
+median_hh_income percent_poverty        -0.0746      0.024     -3.097      0.002      -0.122      -0.027
+median_hh_income opioid_rx_rate_2014     0.0902      0.023      3.999      0.000       0.046       0.134
+Division_East_North_Central             -0.2189      0.058     -3.767      0.000      -0.333      -0.105
+Division_East_South_Central             -0.3871      0.075     -5.153      0.000      -0.535      -0.240
+Division_Mountain                       -0.3192      0.076     -4.175      0.000      -0.469      -0.169
+Division_Pacific                        -0.4231      0.073     -5.826      0.000      -0.566      -0.281
+Division_South_Atlantic                 -0.2769      0.056     -4.934      0.000      -0.387      -0.167
+Division_West_North_Central             -0.4893      0.084     -5.856      0.000      -0.653      -0.325
+Division_West_South_Central             -0.5962      0.071     -8.422      0.000      -0.735      -0.457
+==============================================================================
+Omnibus:                        1.887   Durbin-Watson:                   2.075
+Prob(Omnibus):                  0.389   Jarque-Bera (JB):                1.920
+Skew:                           0.125   Prob(JB):                        0.383
+Kurtosis:                       2.946   Cond. No.                         21.4
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 38                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.363
+Model:                            OLS   Adj. R-squared:                  0.350
+Method:                 Least Squares   F-statistic:                     27.85
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           5.25e-58
+Time:                        08:24:16   Log-Likelihood:                -382.48
+No. Observations:                 700   AIC:                             795.0
+Df Residuals:                     685   BIC:                             863.2
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4769      0.045     76.819      0.000       3.388       3.566
+median_age                               0.1536      0.018      8.416      0.000       0.118       0.189
+percent_poverty                          0.0806      0.022      3.587      0.000       0.036       0.125
+opioid_rx_rate_2014                      0.1767      0.024      7.238      0.000       0.129       0.225
+median_age hs_percent                   -0.0799      0.018     -4.556      0.000      -0.114      -0.045
+hs_percent percent_poverty               0.0321      0.016      1.987      0.047       0.000       0.064
+median_hh_income percent_poverty        -0.0606      0.024     -2.548      0.011      -0.107      -0.014
+median_hh_income opioid_rx_rate_2014     0.0976      0.023      4.328      0.000       0.053       0.142
+Division_East_North_Central             -0.2088      0.058     -3.576      0.000      -0.323      -0.094
+Division_East_South_Central             -0.3876      0.076     -5.129      0.000      -0.536      -0.239
+Division_Mountain                       -0.3163      0.077     -4.113      0.000      -0.467      -0.165
+Division_Pacific                        -0.4494      0.073     -6.194      0.000      -0.592      -0.307
+Division_South_Atlantic                 -0.3212      0.055     -5.888      0.000      -0.428      -0.214
+Division_West_North_Central             -0.4818      0.084     -5.734      0.000      -0.647      -0.317
+Division_West_South_Central             -0.6157      0.071     -8.680      0.000      -0.755      -0.476
+==============================================================================
+Omnibus:                        1.957   Durbin-Watson:                   2.049
+Prob(Omnibus):                  0.376   Jarque-Bera (JB):                2.019
+Skew:                           0.125   Prob(JB):                        0.364
+Kurtosis:                       2.918   Cond. No.                         21.4
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 40                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.357
+Model:                            OLS   Adj. R-squared:                  0.345
+Method:                 Least Squares   F-statistic:                     31.73
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           3.96e-58
+Time:                        08:24:16   Log-Likelihood:                -385.83
+No. Observations:                 700   AIC:                             797.7
+Df Residuals:                     687   BIC:                             856.8
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4722      0.045     76.818      0.000       3.383       3.561
+median_age                               0.1543      0.018      8.439      0.000       0.118       0.190
+percent_poverty                          0.0767      0.019      3.943      0.000       0.038       0.115
+opioid_rx_rate_2014                      0.1559      0.022      7.065      0.000       0.113       0.199
+median_age hs_percent                   -0.0814      0.017     -4.701      0.000      -0.115      -0.047
+median_hh_income opioid_rx_rate_2014     0.0653      0.016      3.974      0.000       0.033       0.098
+Division_East_North_Central             -0.1976      0.058     -3.385      0.001      -0.312      -0.083
+Division_East_South_Central             -0.3748      0.076     -4.959      0.000      -0.523      -0.226
+Division_Mountain                       -0.3000      0.077     -3.906      0.000      -0.451      -0.149
+Division_Pacific                        -0.4501      0.073     -6.196      0.000      -0.593      -0.307
+Division_South_Atlantic                 -0.3032      0.054     -5.587      0.000      -0.410      -0.197
+Division_West_North_Central             -0.4861      0.084     -5.788      0.000      -0.651      -0.321
+Division_West_South_Central             -0.5971      0.071     -8.433      0.000      -0.736      -0.458
+==============================================================================
+Omnibus:                        2.383   Durbin-Watson:                   2.056
+Prob(Omnibus):                  0.304   Jarque-Bera (JB):                2.460
+Skew:                           0.133   Prob(JB):                        0.292
+Kurtosis:                       2.883   Cond. No.                         12.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 41                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.346
+Model:                            OLS   Adj. R-squared:                  0.335
+Method:                 Least Squares   F-statistic:                     33.08
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           1.69e-56
+Time:                        08:24:16   Log-Likelihood:                -391.62
+No. Observations:                 700   AIC:                             807.2
+Df Residuals:                     688   BIC:                             861.9
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.3578      0.030    111.118      0.000       3.298       3.417
+median_age                               0.1659      0.018      9.176      0.000       0.130       0.201
+percent_poverty                          0.0759      0.020      3.876      0.000       0.037       0.114
+opioid_rx_rate_2014                      0.1381      0.022      6.394      0.000       0.096       0.180
+median_age hs_percent                   -0.0743      0.017     -4.291      0.000      -0.108      -0.040
+median_hh_income opioid_rx_rate_2014     0.0577      0.016      3.518      0.000       0.026       0.090
+Division_East_South_Central             -0.2478      0.066     -3.749      0.000      -0.378      -0.118
+Division_Mountain                       -0.1848      0.069     -2.664      0.008      -0.321      -0.049
+Division_Pacific                        -0.3479      0.067     -5.226      0.000      -0.479      -0.217
+Division_South_Atlantic                 -0.1919      0.044     -4.412      0.000      -0.277      -0.107
+Division_West_North_Central             -0.3721      0.078     -4.801      0.000      -0.524      -0.220
+Division_West_South_Central             -0.4757      0.062     -7.733      0.000      -0.597      -0.355
+==============================================================================
+Omnibus:                        1.594   Durbin-Watson:                   2.066
+Prob(Omnibus):                  0.451   Jarque-Bera (JB):                1.674
+Skew:                           0.108   Prob(JB):                        0.433
+Kurtosis:                       2.894   Cond. No.                         8.77
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 42                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.339
+Model:                            OLS   Adj. R-squared:                  0.330
+Method:                 Least Squares   F-statistic:                     35.36
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           8.66e-56
+Time:                        08:24:16   Log-Likelihood:                -395.21
+No. Observations:                 700   AIC:                             812.4
+Df Residuals:                     689   BIC:                             862.5
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.3222      0.027    122.019      0.000       3.269       3.376
+median_age                               0.1726      0.018      9.591      0.000       0.137       0.208
+percent_poverty                          0.0700      0.020      3.580      0.000       0.032       0.108
+opioid_rx_rate_2014                      0.1367      0.022      6.304      0.000       0.094       0.179
+median_age hs_percent                   -0.0719      0.017     -4.141      0.000      -0.106      -0.038
+median_hh_income opioid_rx_rate_2014     0.0551      0.016      3.348      0.001       0.023       0.087
+Division_East_South_Central             -0.2096      0.065     -3.234      0.001      -0.337      -0.082
+Division_Pacific                        -0.3156      0.066     -4.800      0.000      -0.445      -0.186
+Division_South_Atlantic                 -0.1573      0.042     -3.772      0.000      -0.239      -0.075
+Division_West_North_Central             -0.3365      0.077     -4.388      0.000      -0.487      -0.186
+Division_West_South_Central             -0.4350      0.060     -7.268      0.000      -0.552      -0.317
+==============================================================================
+Omnibus:                        1.749   Durbin-Watson:                   2.048
+Prob(Omnibus):                  0.417   Jarque-Bera (JB):                1.828
+Skew:                           0.113   Prob(JB):                        0.401
+Kurtosis:                       2.892   Cond. No.                         7.78
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 43                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.329
+Model:                            OLS   Adj. R-squared:                  0.320
+Method:                 Least Squares   F-statistic:                     37.61
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           2.18e-54
+Time:                        08:24:16   Log-Likelihood:                -400.48
+No. Observations:                 700   AIC:                             821.0
+Df Residuals:                     690   BIC:                             866.5
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2836      0.025    133.247      0.000       3.235       3.332
+median_age                               0.1768      0.018      9.785      0.000       0.141       0.212
+percent_poverty                          0.0612      0.019      3.139      0.002       0.023       0.099
+opioid_rx_rate_2014                      0.1190      0.021      5.632      0.000       0.077       0.160
+median_age hs_percent                   -0.0679      0.017     -3.893      0.000      -0.102      -0.034
+median_hh_income opioid_rx_rate_2014     0.0607      0.016      3.685      0.000       0.028       0.093
+Division_Pacific                        -0.2796      0.065     -4.285      0.000      -0.408      -0.151
+Division_South_Atlantic                 -0.1133      0.040     -2.855      0.004      -0.191      -0.035
+Division_West_North_Central             -0.3023      0.076     -3.953      0.000      -0.452      -0.152
+Division_West_South_Central             -0.3844      0.058     -6.609      0.000      -0.499      -0.270
+==============================================================================
+Omnibus:                        0.742   Durbin-Watson:                   2.044
+Prob(Omnibus):                  0.690   Jarque-Bera (JB):                0.774
+Skew:                           0.078   Prob(JB):                        0.679
+Kurtosis:                       2.955   Cond. No.                         7.07
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 44                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.321
+Model:                            OLS   Adj. R-squared:                  0.313
+Method:                 Least Squares   F-statistic:                     40.87
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           1.74e-53
+Time:                        08:24:16   Log-Likelihood:                -404.60
+No. Observations:                 700   AIC:                             827.2
+Df Residuals:                     691   BIC:                             868.2
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2449      0.021    156.892      0.000       3.204       3.286
+median_age                               0.1761      0.018      9.696      0.000       0.140       0.212
+percent_poverty                          0.0553      0.019      2.837      0.005       0.017       0.093
+opioid_rx_rate_2014                      0.1205      0.021      5.680      0.000       0.079       0.162
+median_age hs_percent                   -0.0643      0.017     -3.679      0.000      -0.099      -0.030
+median_hh_income opioid_rx_rate_2014     0.0604      0.017      3.647      0.000       0.028       0.093
+Division_Pacific                        -0.2436      0.064     -3.786      0.000      -0.370      -0.117
+Division_West_North_Central             -0.2649      0.076     -3.498      0.000      -0.414      -0.116
+Division_West_South_Central             -0.3458      0.057     -6.082      0.000      -0.457      -0.234
+==============================================================================
+Omnibus:                        0.524   Durbin-Watson:                   2.031
+Prob(Omnibus):                  0.769   Jarque-Bera (JB):                0.623
+Skew:                           0.030   Prob(JB):                        0.732
+Kurtosis:                       2.867   Cond. No.                         6.69
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 45                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.313
+Model:                            OLS   Adj. R-squared:                  0.306
+Method:                 Least Squares   F-statistic:                     45.10
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           1.26e-52
+Time:                        08:24:16   Log-Likelihood:                -408.65
+No. Observations:                 700   AIC:                             833.3
+Df Residuals:                     692   BIC:                             869.7
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2506      0.021    157.111      0.000       3.210       3.291
+median_age                               0.1627      0.018      9.231      0.000       0.128       0.197
+opioid_rx_rate_2014                      0.1502      0.019      8.085      0.000       0.114       0.187
+median_age hs_percent                   -0.0587      0.017     -3.361      0.001      -0.093      -0.024
+median_hh_income opioid_rx_rate_2014     0.0686      0.016      4.184      0.000       0.036       0.101
+Division_Pacific                        -0.2461      0.065     -3.807      0.000      -0.373      -0.119
+Division_West_North_Central             -0.2892      0.076     -3.823      0.000      -0.438      -0.141
+Division_West_South_Central             -0.3447      0.057     -6.032      0.000      -0.457      -0.232
+==============================================================================
+Omnibus:                        1.145   Durbin-Watson:                   2.021
+Prob(Omnibus):                  0.564   Jarque-Bera (JB):                1.230
+Skew:                           0.088   Prob(JB):                        0.541
+Kurtosis:                       2.893   Cond. No.                         6.62
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 46                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.299
+Model:                            OLS   Adj. R-squared:                  0.293
+Method:                 Least Squares   F-statistic:                     49.24
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           1.99e-50
+Time:                        08:24:16   Log-Likelihood:                -415.90
+No. Observations:                 700   AIC:                             845.8
+Df Residuals:                     693   BIC:                             877.7
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2313      0.020    159.523      0.000       3.192       3.271
+median_age                               0.1692      0.018      9.548      0.000       0.134       0.204
+opioid_rx_rate_2014                      0.1540      0.019      8.224      0.000       0.117       0.191
+median_age hs_percent                   -0.0723      0.017     -4.191      0.000      -0.106      -0.038
+median_hh_income opioid_rx_rate_2014     0.0752      0.016      4.572      0.000       0.043       0.108
+Division_West_North_Central             -0.2685      0.076     -3.525      0.000      -0.418      -0.119
+Division_West_South_Central             -0.3135      0.057     -5.491      0.000      -0.426      -0.201
+==============================================================================
+Omnibus:                        2.181   Durbin-Watson:                   2.018
+Prob(Omnibus):                  0.336   Jarque-Bera (JB):                2.257
+Skew:                           0.121   Prob(JB):                        0.323
+Kurtosis:                       2.863   Cond. No.                         6.52
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 47                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.286
+Model:                            OLS   Adj. R-squared:                  0.281
+Method:                 Least Squares   F-statistic:                     55.69
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           1.10e-48
+Time:                        08:24:16   Log-Likelihood:                -422.12
+No. Observations:                 700   AIC:                             856.2
+Df Residuals:                     694   BIC:                             883.5
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2147      0.020    161.875      0.000       3.176       3.254
+median_age                               0.1773      0.018     10.009      0.000       0.142       0.212
+opioid_rx_rate_2014                      0.1584      0.019      8.408      0.000       0.121       0.195
+median_age hs_percent                   -0.0658      0.017     -3.806      0.000      -0.100      -0.032
+median_hh_income opioid_rx_rate_2014     0.0752      0.017      4.530      0.000       0.043       0.108
+Division_West_South_Central             -0.2955      0.057     -5.153      0.000      -0.408      -0.183
+==============================================================================
+Omnibus:                        2.070   Durbin-Watson:                   2.038
+Prob(Omnibus):                  0.355   Jarque-Bera (JB):                2.133
+Skew:                           0.110   Prob(JB):                        0.344
+Kurtosis:                       2.843   Cond. No.                         4.89
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 48                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.271
+Model:                            OLS   Adj. R-squared:                  0.267
+Method:                 Least Squares   F-statistic:                     64.74
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           1.53e-46
+Time:                        08:24:16   Log-Likelihood:                -429.35
+No. Observations:                 700   AIC:                             868.7
+Df Residuals:                     695   BIC:                             891.5
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2106      0.020    160.355      0.000       3.171       3.250
+median_age                               0.1682      0.018      9.492      0.000       0.133       0.203
+opioid_rx_rate_2014                      0.1648      0.019      8.697      0.000       0.128       0.202
+median_hh_income opioid_rx_rate_2014     0.0650      0.017      3.934      0.000       0.033       0.097
+Division_West_South_Central             -0.3319      0.057     -5.813      0.000      -0.444      -0.220
+==============================================================================
+Omnibus:                        0.750   Durbin-Watson:                   2.046
+Prob(Omnibus):                  0.687   Jarque-Bera (JB):                0.768
+Skew:                           0.079   Prob(JB):                        0.681
+Kurtosis:                       2.966   Cond. No.                         4.78
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 49                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.255
+Model:                            OLS   Adj. R-squared:                  0.252
+Method:                 Least Squares   F-statistic:                     79.50
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           3.12e-44
+Time:                        08:24:16   Log-Likelihood:                -437.06
+No. Observations:                 700   AIC:                             882.1
+Df Residuals:                     696   BIC:                             900.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           3.1764      0.018    174.331      0.000       3.141       3.212
+median_age                      0.1687      0.018      9.421      0.000       0.134       0.204
+opioid_rx_rate_2014             0.1373      0.018      7.716      0.000       0.102       0.172
+Division_West_South_Central    -0.3169      0.058     -5.507      0.000      -0.430      -0.204
+==============================================================================
+Omnibus:                        1.590   Durbin-Watson:                   2.056
+Prob(Omnibus):                  0.452   Jarque-Bera (JB):                1.666
+Skew:                           0.109   Prob(JB):                        0.435
+Kurtosis:                       2.903   Cond. No.                         3.67
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 50                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.223
+Model:                            OLS   Adj. R-squared:                  0.221
+Method:                 Least Squares   F-statistic:                     99.89
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           7.18e-39
+Time:                        08:24:16   Log-Likelihood:                -451.99
+No. Observations:                 700   AIC:                             910.0
+Df Residuals:                     697   BIC:                             923.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   3.1422      0.017    179.708      0.000       3.108       3.177
+median_age              0.1941      0.018     10.989      0.000       0.159       0.229
+opioid_rx_rate_2014     0.1236      0.018      6.873      0.000       0.088       0.159
+==============================================================================
+Omnibus:                        0.544   Durbin-Watson:                   2.009
+Prob(Omnibus):                  0.762   Jarque-Bera (JB):                0.490
+Skew:                           0.064   Prob(JB):                        0.783
+Kurtosis:                       3.018   Cond. No.                         1.19
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 51                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.170
+Model:                            OLS   Adj. R-squared:                  0.169
+Method:                 Least Squares   F-statistic:                     143.1
+Date:                Wed, 18 Jul 2018   Prob (F-statistic):           4.01e-30
+Time:                        08:24:16   Log-Likelihood:                -474.94
+No. Observations:                 700   AIC:                             953.9
+Df Residuals:                     698   BIC:                             963.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          3.1435      0.018    174.122      0.000       3.108       3.179
+median_age     0.2149      0.018     11.961      0.000       0.180       0.250
+==============================================================================
+Omnibus:                        1.646   Durbin-Watson:                   2.000
+Prob(Omnibus):                  0.439   Jarque-Bera (JB):                1.503
+Skew:                           0.062   Prob(JB):                        0.472
+Kurtosis:                       3.191   Cond. No.                         1.02
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 35                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.389
+Model:                            OLS   Adj. R-squared:                  0.374
+Method:                 Least Squares   F-statistic:                     25.58
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           6.07e-62
+Time:                        08:34:25   Log-Likelihood:                -367.56
+No. Observations:                 700   AIC:                             771.1
+Df Residuals:                     682   BIC:                             853.0
+Df Model:                          17                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4789      0.045     77.596      0.000       3.391       3.567
+median_age                               0.1485      0.020      7.544      0.000       0.110       0.187
+percent_white                            0.0807      0.022      3.652      0.000       0.037       0.124
+percent_poverty                          0.1161      0.025      4.699      0.000       0.068       0.165
+opioid_rx_rate_2014                      0.1460      0.025      5.752      0.000       0.096       0.196
+median_age^2                            -0.0292      0.009     -3.425      0.001      -0.046      -0.012
+median_age hs_percent                   -0.0697      0.017     -4.015      0.000      -0.104      -0.036
+percent_white opioid_rx_rate_2014        0.0457      0.016      2.910      0.004       0.015       0.077
+hs_percent percent_poverty               0.0500      0.017      2.990      0.003       0.017       0.083
+median_hh_income percent_poverty        -0.0763      0.024     -3.164      0.002      -0.124      -0.029
+median_hh_income opioid_rx_rate_2014     0.1046      0.023      4.540      0.000       0.059       0.150
+Division_East_North_Central             -0.2237      0.057     -3.891      0.000      -0.337      -0.111
+Division_East_South_Central             -0.3944      0.075     -5.282      0.000      -0.541      -0.248
+Division_Mountain                       -0.2946      0.077     -3.818      0.000      -0.446      -0.143
+Division_Pacific                        -0.4202      0.072     -5.819      0.000      -0.562      -0.278
+Division_South_Atlantic                 -0.2531      0.056     -4.503      0.000      -0.364      -0.143
+Division_West_North_Central             -0.4614      0.083     -5.561      0.000      -0.624      -0.298
+Division_West_South_Central             -0.5586      0.070     -7.933      0.000      -0.697      -0.420
+==============================================================================
+Omnibus:                        2.299   Durbin-Watson:                   2.068
+Prob(Omnibus):                  0.317   Jarque-Bera (JB):                2.377
+Skew:                           0.128   Prob(JB):                        0.305
+Kurtosis:                       2.873   Cond. No.                         23.1
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 36                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.379
+Model:                            OLS   Adj. R-squared:                  0.364
+Method:                 Least Squares   F-statistic:                     26.04
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           3.20e-60
+Time:                        08:34:25   Log-Likelihood:                -373.53
+No. Observations:                 700   AIC:                             781.1
+Df Residuals:                     683   BIC:                             858.4
+Df Model:                          16                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4666      0.045     76.968      0.000       3.378       3.555
+median_age                               0.1325      0.019      6.876      0.000       0.095       0.170
+percent_white                            0.0779      0.022      3.500      0.000       0.034       0.122
+percent_poverty                          0.1107      0.025      4.453      0.000       0.062       0.159
+opioid_rx_rate_2014                      0.1584      0.025      6.255      0.000       0.109       0.208
+median_age hs_percent                   -0.0740      0.017     -4.236      0.000      -0.108      -0.040
+percent_white opioid_rx_rate_2014        0.0455      0.016      2.871      0.004       0.014       0.077
+hs_percent percent_poverty               0.0521      0.017      3.094      0.002       0.019       0.085
+median_hh_income percent_poverty        -0.0843      0.024     -3.484      0.001      -0.132      -0.037
+median_hh_income opioid_rx_rate_2014     0.1072      0.023      4.619      0.000       0.062       0.153
+Division_East_North_Central             -0.2290      0.058     -3.953      0.000      -0.343      -0.115
+Division_East_South_Central             -0.4095      0.075     -5.451      0.000      -0.557      -0.262
+Division_Mountain                       -0.3424      0.076     -4.478      0.000      -0.493      -0.192
+Division_Pacific                        -0.4413      0.073     -6.085      0.000      -0.584      -0.299
+Division_South_Atlantic                 -0.2847      0.056     -5.094      0.000      -0.394      -0.175
+Division_West_North_Central             -0.4925      0.083     -5.925      0.000      -0.656      -0.329
+Division_West_South_Central             -0.5854      0.071     -8.301      0.000      -0.724      -0.447
+==============================================================================
+Omnibus:                        2.078   Durbin-Watson:                   2.065
+Prob(Omnibus):                  0.354   Jarque-Bera (JB):                2.151
+Skew:                           0.126   Prob(JB):                        0.341
+Kurtosis:                       2.900   Cond. No.                         21.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 37                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.371
+Model:                            OLS   Adj. R-squared:                  0.358
+Method:                 Least Squares   F-statistic:                     26.94
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           3.16e-59
+Time:                        08:34:25   Log-Likelihood:                -377.72
+No. Observations:                 700   AIC:                             787.4
+Df Residuals:                     684   BIC:                             860.3
+Df Model:                          15                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4621      0.045     76.511      0.000       3.373       3.551
+median_age                               0.1328      0.019      6.853      0.000       0.095       0.171
+percent_white                            0.0675      0.022      3.059      0.002       0.024       0.111
+percent_poverty                          0.1146      0.025      4.595      0.000       0.066       0.164
+opioid_rx_rate_2014                      0.1537      0.025      6.049      0.000       0.104       0.204
+median_age hs_percent                   -0.0734      0.018     -4.183      0.000      -0.108      -0.039
+hs_percent percent_poverty               0.0481      0.017      2.850      0.005       0.015       0.081
+median_hh_income percent_poverty        -0.0746      0.024     -3.097      0.002      -0.122      -0.027
+median_hh_income opioid_rx_rate_2014     0.0902      0.023      3.999      0.000       0.046       0.134
+Division_East_North_Central             -0.2189      0.058     -3.767      0.000      -0.333      -0.105
+Division_East_South_Central             -0.3871      0.075     -5.153      0.000      -0.535      -0.240
+Division_Mountain                       -0.3192      0.076     -4.175      0.000      -0.469      -0.169
+Division_Pacific                        -0.4231      0.073     -5.826      0.000      -0.566      -0.281
+Division_South_Atlantic                 -0.2769      0.056     -4.934      0.000      -0.387      -0.167
+Division_West_North_Central             -0.4893      0.084     -5.856      0.000      -0.653      -0.325
+Division_West_South_Central             -0.5962      0.071     -8.422      0.000      -0.735      -0.457
+==============================================================================
+Omnibus:                        1.887   Durbin-Watson:                   2.075
+Prob(Omnibus):                  0.389   Jarque-Bera (JB):                1.920
+Skew:                           0.125   Prob(JB):                        0.383
+Kurtosis:                       2.946   Cond. No.                         21.4
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 38                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.363
+Model:                            OLS   Adj. R-squared:                  0.350
+Method:                 Least Squares   F-statistic:                     27.85
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           5.25e-58
+Time:                        08:34:26   Log-Likelihood:                -382.48
+No. Observations:                 700   AIC:                             795.0
+Df Residuals:                     685   BIC:                             863.2
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4769      0.045     76.819      0.000       3.388       3.566
+median_age                               0.1536      0.018      8.416      0.000       0.118       0.189
+percent_poverty                          0.0806      0.022      3.587      0.000       0.036       0.125
+opioid_rx_rate_2014                      0.1767      0.024      7.238      0.000       0.129       0.225
+median_age hs_percent                   -0.0799      0.018     -4.556      0.000      -0.114      -0.045
+hs_percent percent_poverty               0.0321      0.016      1.987      0.047       0.000       0.064
+median_hh_income percent_poverty        -0.0606      0.024     -2.548      0.011      -0.107      -0.014
+median_hh_income opioid_rx_rate_2014     0.0976      0.023      4.328      0.000       0.053       0.142
+Division_East_North_Central             -0.2088      0.058     -3.576      0.000      -0.323      -0.094
+Division_East_South_Central             -0.3876      0.076     -5.129      0.000      -0.536      -0.239
+Division_Mountain                       -0.3163      0.077     -4.113      0.000      -0.467      -0.165
+Division_Pacific                        -0.4494      0.073     -6.194      0.000      -0.592      -0.307
+Division_South_Atlantic                 -0.3212      0.055     -5.888      0.000      -0.428      -0.214
+Division_West_North_Central             -0.4818      0.084     -5.734      0.000      -0.647      -0.317
+Division_West_South_Central             -0.6157      0.071     -8.680      0.000      -0.755      -0.476
+==============================================================================
+Omnibus:                        1.957   Durbin-Watson:                   2.049
+Prob(Omnibus):                  0.376   Jarque-Bera (JB):                2.019
+Skew:                           0.125   Prob(JB):                        0.364
+Kurtosis:                       2.918   Cond. No.                         21.4
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 40                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.357
+Model:                            OLS   Adj. R-squared:                  0.345
+Method:                 Least Squares   F-statistic:                     31.73
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           3.96e-58
+Time:                        08:34:26   Log-Likelihood:                -385.83
+No. Observations:                 700   AIC:                             797.7
+Df Residuals:                     687   BIC:                             856.8
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.4722      0.045     76.818      0.000       3.383       3.561
+median_age                               0.1543      0.018      8.439      0.000       0.118       0.190
+percent_poverty                          0.0767      0.019      3.943      0.000       0.038       0.115
+opioid_rx_rate_2014                      0.1559      0.022      7.065      0.000       0.113       0.199
+median_age hs_percent                   -0.0814      0.017     -4.701      0.000      -0.115      -0.047
+median_hh_income opioid_rx_rate_2014     0.0653      0.016      3.974      0.000       0.033       0.098
+Division_East_North_Central             -0.1976      0.058     -3.385      0.001      -0.312      -0.083
+Division_East_South_Central             -0.3748      0.076     -4.959      0.000      -0.523      -0.226
+Division_Mountain                       -0.3000      0.077     -3.906      0.000      -0.451      -0.149
+Division_Pacific                        -0.4501      0.073     -6.196      0.000      -0.593      -0.307
+Division_South_Atlantic                 -0.3032      0.054     -5.587      0.000      -0.410      -0.197
+Division_West_North_Central             -0.4861      0.084     -5.788      0.000      -0.651      -0.321
+Division_West_South_Central             -0.5971      0.071     -8.433      0.000      -0.736      -0.458
+==============================================================================
+Omnibus:                        2.383   Durbin-Watson:                   2.056
+Prob(Omnibus):                  0.304   Jarque-Bera (JB):                2.460
+Skew:                           0.133   Prob(JB):                        0.292
+Kurtosis:                       2.883   Cond. No.                         12.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 41                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.346
+Model:                            OLS   Adj. R-squared:                  0.335
+Method:                 Least Squares   F-statistic:                     33.08
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           1.69e-56
+Time:                        08:34:26   Log-Likelihood:                -391.62
+No. Observations:                 700   AIC:                             807.2
+Df Residuals:                     688   BIC:                             861.9
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.3578      0.030    111.118      0.000       3.298       3.417
+median_age                               0.1659      0.018      9.176      0.000       0.130       0.201
+percent_poverty                          0.0759      0.020      3.876      0.000       0.037       0.114
+opioid_rx_rate_2014                      0.1381      0.022      6.394      0.000       0.096       0.180
+median_age hs_percent                   -0.0743      0.017     -4.291      0.000      -0.108      -0.040
+median_hh_income opioid_rx_rate_2014     0.0577      0.016      3.518      0.000       0.026       0.090
+Division_East_South_Central             -0.2478      0.066     -3.749      0.000      -0.378      -0.118
+Division_Mountain                       -0.1848      0.069     -2.664      0.008      -0.321      -0.049
+Division_Pacific                        -0.3479      0.067     -5.226      0.000      -0.479      -0.217
+Division_South_Atlantic                 -0.1919      0.044     -4.412      0.000      -0.277      -0.107
+Division_West_North_Central             -0.3721      0.078     -4.801      0.000      -0.524      -0.220
+Division_West_South_Central             -0.4757      0.062     -7.733      0.000      -0.597      -0.355
+==============================================================================
+Omnibus:                        1.594   Durbin-Watson:                   2.066
+Prob(Omnibus):                  0.451   Jarque-Bera (JB):                1.674
+Skew:                           0.108   Prob(JB):                        0.433
+Kurtosis:                       2.894   Cond. No.                         8.77
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 42                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.339
+Model:                            OLS   Adj. R-squared:                  0.330
+Method:                 Least Squares   F-statistic:                     35.36
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           8.66e-56
+Time:                        08:34:26   Log-Likelihood:                -395.21
+No. Observations:                 700   AIC:                             812.4
+Df Residuals:                     689   BIC:                             862.5
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.3222      0.027    122.019      0.000       3.269       3.376
+median_age                               0.1726      0.018      9.591      0.000       0.137       0.208
+percent_poverty                          0.0700      0.020      3.580      0.000       0.032       0.108
+opioid_rx_rate_2014                      0.1367      0.022      6.304      0.000       0.094       0.179
+median_age hs_percent                   -0.0719      0.017     -4.141      0.000      -0.106      -0.038
+median_hh_income opioid_rx_rate_2014     0.0551      0.016      3.348      0.001       0.023       0.087
+Division_East_South_Central             -0.2096      0.065     -3.234      0.001      -0.337      -0.082
+Division_Pacific                        -0.3156      0.066     -4.800      0.000      -0.445      -0.186
+Division_South_Atlantic                 -0.1573      0.042     -3.772      0.000      -0.239      -0.075
+Division_West_North_Central             -0.3365      0.077     -4.388      0.000      -0.487      -0.186
+Division_West_South_Central             -0.4350      0.060     -7.268      0.000      -0.552      -0.317
+==============================================================================
+Omnibus:                        1.749   Durbin-Watson:                   2.048
+Prob(Omnibus):                  0.417   Jarque-Bera (JB):                1.828
+Skew:                           0.113   Prob(JB):                        0.401
+Kurtosis:                       2.892   Cond. No.                         7.78
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 43                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.329
+Model:                            OLS   Adj. R-squared:                  0.320
+Method:                 Least Squares   F-statistic:                     37.61
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           2.18e-54
+Time:                        08:34:26   Log-Likelihood:                -400.48
+No. Observations:                 700   AIC:                             821.0
+Df Residuals:                     690   BIC:                             866.5
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2836      0.025    133.247      0.000       3.235       3.332
+median_age                               0.1768      0.018      9.785      0.000       0.141       0.212
+percent_poverty                          0.0612      0.019      3.139      0.002       0.023       0.099
+opioid_rx_rate_2014                      0.1190      0.021      5.632      0.000       0.077       0.160
+median_age hs_percent                   -0.0679      0.017     -3.893      0.000      -0.102      -0.034
+median_hh_income opioid_rx_rate_2014     0.0607      0.016      3.685      0.000       0.028       0.093
+Division_Pacific                        -0.2796      0.065     -4.285      0.000      -0.408      -0.151
+Division_South_Atlantic                 -0.1133      0.040     -2.855      0.004      -0.191      -0.035
+Division_West_North_Central             -0.3023      0.076     -3.953      0.000      -0.452      -0.152
+Division_West_South_Central             -0.3844      0.058     -6.609      0.000      -0.499      -0.270
+==============================================================================
+Omnibus:                        0.742   Durbin-Watson:                   2.044
+Prob(Omnibus):                  0.690   Jarque-Bera (JB):                0.774
+Skew:                           0.078   Prob(JB):                        0.679
+Kurtosis:                       2.955   Cond. No.                         7.07
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 44                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.321
+Model:                            OLS   Adj. R-squared:                  0.313
+Method:                 Least Squares   F-statistic:                     40.87
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           1.74e-53
+Time:                        08:34:26   Log-Likelihood:                -404.60
+No. Observations:                 700   AIC:                             827.2
+Df Residuals:                     691   BIC:                             868.2
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2449      0.021    156.892      0.000       3.204       3.286
+median_age                               0.1761      0.018      9.696      0.000       0.140       0.212
+percent_poverty                          0.0553      0.019      2.837      0.005       0.017       0.093
+opioid_rx_rate_2014                      0.1205      0.021      5.680      0.000       0.079       0.162
+median_age hs_percent                   -0.0643      0.017     -3.679      0.000      -0.099      -0.030
+median_hh_income opioid_rx_rate_2014     0.0604      0.017      3.647      0.000       0.028       0.093
+Division_Pacific                        -0.2436      0.064     -3.786      0.000      -0.370      -0.117
+Division_West_North_Central             -0.2649      0.076     -3.498      0.000      -0.414      -0.116
+Division_West_South_Central             -0.3458      0.057     -6.082      0.000      -0.457      -0.234
+==============================================================================
+Omnibus:                        0.524   Durbin-Watson:                   2.031
+Prob(Omnibus):                  0.769   Jarque-Bera (JB):                0.623
+Skew:                           0.030   Prob(JB):                        0.732
+Kurtosis:                       2.867   Cond. No.                         6.69
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 45                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.313
+Model:                            OLS   Adj. R-squared:                  0.306
+Method:                 Least Squares   F-statistic:                     45.10
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           1.26e-52
+Time:                        08:34:26   Log-Likelihood:                -408.65
+No. Observations:                 700   AIC:                             833.3
+Df Residuals:                     692   BIC:                             869.7
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2506      0.021    157.111      0.000       3.210       3.291
+median_age                               0.1627      0.018      9.231      0.000       0.128       0.197
+opioid_rx_rate_2014                      0.1502      0.019      8.085      0.000       0.114       0.187
+median_age hs_percent                   -0.0587      0.017     -3.361      0.001      -0.093      -0.024
+median_hh_income opioid_rx_rate_2014     0.0686      0.016      4.184      0.000       0.036       0.101
+Division_Pacific                        -0.2461      0.065     -3.807      0.000      -0.373      -0.119
+Division_West_North_Central             -0.2892      0.076     -3.823      0.000      -0.438      -0.141
+Division_West_South_Central             -0.3447      0.057     -6.032      0.000      -0.457      -0.232
+==============================================================================
+Omnibus:                        1.145   Durbin-Watson:                   2.021
+Prob(Omnibus):                  0.564   Jarque-Bera (JB):                1.230
+Skew:                           0.088   Prob(JB):                        0.541
+Kurtosis:                       2.893   Cond. No.                         6.62
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 46                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.299
+Model:                            OLS   Adj. R-squared:                  0.293
+Method:                 Least Squares   F-statistic:                     49.24
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           1.99e-50
+Time:                        08:34:26   Log-Likelihood:                -415.90
+No. Observations:                 700   AIC:                             845.8
+Df Residuals:                     693   BIC:                             877.7
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2313      0.020    159.523      0.000       3.192       3.271
+median_age                               0.1692      0.018      9.548      0.000       0.134       0.204
+opioid_rx_rate_2014                      0.1540      0.019      8.224      0.000       0.117       0.191
+median_age hs_percent                   -0.0723      0.017     -4.191      0.000      -0.106      -0.038
+median_hh_income opioid_rx_rate_2014     0.0752      0.016      4.572      0.000       0.043       0.108
+Division_West_North_Central             -0.2685      0.076     -3.525      0.000      -0.418      -0.119
+Division_West_South_Central             -0.3135      0.057     -5.491      0.000      -0.426      -0.201
+==============================================================================
+Omnibus:                        2.181   Durbin-Watson:                   2.018
+Prob(Omnibus):                  0.336   Jarque-Bera (JB):                2.257
+Skew:                           0.121   Prob(JB):                        0.323
+Kurtosis:                       2.863   Cond. No.                         6.52
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 47                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.286
+Model:                            OLS   Adj. R-squared:                  0.281
+Method:                 Least Squares   F-statistic:                     55.69
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           1.10e-48
+Time:                        08:34:26   Log-Likelihood:                -422.12
+No. Observations:                 700   AIC:                             856.2
+Df Residuals:                     694   BIC:                             883.5
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2147      0.020    161.875      0.000       3.176       3.254
+median_age                               0.1773      0.018     10.009      0.000       0.142       0.212
+opioid_rx_rate_2014                      0.1584      0.019      8.408      0.000       0.121       0.195
+median_age hs_percent                   -0.0658      0.017     -3.806      0.000      -0.100      -0.032
+median_hh_income opioid_rx_rate_2014     0.0752      0.017      4.530      0.000       0.043       0.108
+Division_West_South_Central             -0.2955      0.057     -5.153      0.000      -0.408      -0.183
+==============================================================================
+Omnibus:                        2.070   Durbin-Watson:                   2.038
+Prob(Omnibus):                  0.355   Jarque-Bera (JB):                2.133
+Skew:                           0.110   Prob(JB):                        0.344
+Kurtosis:                       2.843   Cond. No.                         4.89
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 48                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.271
+Model:                            OLS   Adj. R-squared:                  0.267
+Method:                 Least Squares   F-statistic:                     64.74
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           1.53e-46
+Time:                        08:34:26   Log-Likelihood:                -429.35
+No. Observations:                 700   AIC:                             868.7
+Df Residuals:                     695   BIC:                             891.5
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                    3.2106      0.020    160.355      0.000       3.171       3.250
+median_age                               0.1682      0.018      9.492      0.000       0.133       0.203
+opioid_rx_rate_2014                      0.1648      0.019      8.697      0.000       0.128       0.202
+median_hh_income opioid_rx_rate_2014     0.0650      0.017      3.934      0.000       0.033       0.097
+Division_West_South_Central             -0.3319      0.057     -5.813      0.000      -0.444      -0.220
+==============================================================================
+Omnibus:                        0.750   Durbin-Watson:                   2.046
+Prob(Omnibus):                  0.687   Jarque-Bera (JB):                0.768
+Skew:                           0.079   Prob(JB):                        0.681
+Kurtosis:                       2.966   Cond. No.                         4.78
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 49                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.255
+Model:                            OLS   Adj. R-squared:                  0.252
+Method:                 Least Squares   F-statistic:                     79.50
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           3.12e-44
+Time:                        08:34:26   Log-Likelihood:                -437.06
+No. Observations:                 700   AIC:                             882.1
+Df Residuals:                     696   BIC:                             900.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           3.1764      0.018    174.331      0.000       3.141       3.212
+median_age                      0.1687      0.018      9.421      0.000       0.134       0.204
+opioid_rx_rate_2014             0.1373      0.018      7.716      0.000       0.102       0.172
+Division_West_South_Central    -0.3169      0.058     -5.507      0.000      -0.430      -0.204
+==============================================================================
+Omnibus:                        1.590   Durbin-Watson:                   2.056
+Prob(Omnibus):                  0.452   Jarque-Bera (JB):                1.666
+Skew:                           0.109   Prob(JB):                        0.435
+Kurtosis:                       2.903   Cond. No.                         3.67
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 50                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.223
+Model:                            OLS   Adj. R-squared:                  0.221
+Method:                 Least Squares   F-statistic:                     99.89
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           7.18e-39
+Time:                        08:34:26   Log-Likelihood:                -451.99
+No. Observations:                 700   AIC:                             910.0
+Df Residuals:                     697   BIC:                             923.6
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   3.1422      0.017    179.708      0.000       3.108       3.177
+median_age              0.1941      0.018     10.989      0.000       0.159       0.229
+opioid_rx_rate_2014     0.1236      0.018      6.873      0.000       0.088       0.159
+==============================================================================
+Omnibus:                        0.544   Durbin-Watson:                   2.009
+Prob(Omnibus):                  0.762   Jarque-Bera (JB):                0.490
+Skew:                           0.064   Prob(JB):                        0.783
+Kurtosis:                       3.018   Cond. No.                         1.19
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Round number: 51                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         log_crude_rate   R-squared:                       0.170
+Model:                            OLS   Adj. R-squared:                  0.169
+Method:                 Least Squares   F-statistic:                     143.1
+Date:                Thu, 19 Jul 2018   Prob (F-statistic):           4.01e-30
+Time:                        08:34:26   Log-Likelihood:                -474.94
+No. Observations:                 700   AIC:                             953.9
+Df Residuals:                     698   BIC:                             963.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          3.1435      0.018    174.122      0.000       3.108       3.179
+median_age     0.2149      0.018     11.961      0.000       0.180       0.250
+==============================================================================
+Omnibus:                        1.646   Durbin-Watson:                   2.000
+Prob(Omnibus):                  0.439   Jarque-Bera (JB):                1.503
+Skew:                           0.062   Prob(JB):                        0.472
+Kurtosis:                       3.191   Cond. No.                         1.02
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+

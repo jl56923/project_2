@@ -17,3 +17,9 @@ Primary data sources:
     * Either presence or absence of PDMP, or age of PDMP. Info located here: [State Profiles with links for each state](http://www.pdmpassist.org/content/state-profiles)
     * Number of bills passed by each state legislature that contains the word 'opioid'. Obtained from this [website](http://www.ncsl.org/research/telecommunications-and-information-technology/ncsl-50-state-searchable-bill-tracking-databases.aspx)
     * Cook Partisan Voting Index (PVI) for each county. Because Cook PVI is calculated per Congressional district, will instead use this [spreadsheet](https://docs.google.com/spreadsheets/d/1lpIJK1wHTSX3yw00vI_eUi6qpOq3yppozh_I5EdLLC4/edit#gid=0) from this [link](https://decisiondeskhq.com/news/2016-county-pvis-with-county-by-county-calculations/) from decisiondeskhq in order to get the PVI by county.
+
+To do:
+1. Make choropleth maps of your dependent variable, and then also all of your independent variables.
+2. Draft a presentation, figure out how you are going to present this.
+3. Include any corroborating research  
+4. Interpretation of the results
